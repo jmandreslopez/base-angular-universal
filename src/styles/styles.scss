@@ -1,0 +1,18 @@
+
+// ===== Core (Order matters) =====
+@import 'core/functions';
+@import 'core/variables';
+@import 'core/mixins';
+@import 'core/utilities';
+
+// ==== Bootstrap Core ====
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// ===== Custom Imports =====
+// @import 'imports/...';
+
+// ===== Plugins =====
+// @import 'plugins/...';
+
+// ===== Themes =====
+// @import 'themes/...';

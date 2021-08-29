@@ -1,0 +1,66 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Env #
+.env
+.env.local
+.env.prod
+.env.uat
+.env.dev
+config/env.js
+src/environments/*.ts
+!src/environments/environment.ts
+src/app.json
+package-lock.json
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+/bower_components
+
+# IDEs and editors
+/.idea
+.angulardoc.json
+.vscode
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+*.swp
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+/npm-debug.log.*
+testem.log
+/typings
+logs
+*.log
+!yarn.lock
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+src/__ngcc*
